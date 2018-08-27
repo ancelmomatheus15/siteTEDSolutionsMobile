@@ -2,7 +2,7 @@ body{
 	background-color: #8e8b8b;
 }
 
-body button{
+body .button2{
 	display: none;
     position: fixed; 
     bottom: 20px; 
@@ -135,6 +135,11 @@ a:hover {
 a:active {
     color: #555656;
     text-decoration: none;
+}
+
+.banner{
+	height: 200px; 
+	width: 100%;
 }
 
 .inicio{
