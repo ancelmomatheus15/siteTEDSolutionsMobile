@@ -5,19 +5,21 @@
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet" type="text/css" href="reset.css">
-  
+    
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="TEDCSS.css">
+
 <!-- ===========================================================================================================================================================================================-->
 
-	<div id="imgHead"></div>
+	<div id="imgHead" style="background-image:url('imgs/Banner3.jpg')" class="banner">
+	</div>
 
-	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+	<nav class="navbar navbar-expand-md menu">
   		
   		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     		<span class="navbar-toggler-icon"></span>
@@ -42,12 +44,13 @@
 
 <body>
 
-	<button onclick="topFunction()"  id="myBtn" title="Go to top">Início</button>
+	<div id="img1" class="parallaxImgs" style="background-image:url('imgs/Parallax/Prlx06.jpg'); margin-top: 0px">
+	</div>
 
-	<div id="img1"></div>
+	<button onclick="topFunction()"  id="myBtn" title="Go to top" style="display: none">Início</button>
 	
-	<section class="container-fluid col-12 col-md-12 col-xl-12" id="inicio">
-		<div>
+	<section class="container-fluid col-12 col-md-12 col-xl-12 row justify-content-md-center inicio" id="inicio">
+		<div class="col-md-6 divTexto">
 			<h4>Quem Somos?</h4>
 			<p>
 				A T&D Solutions é uma empresa que nasceu do conhecimento e da experiência obtidos 
@@ -60,7 +63,7 @@
 		</div>
 
 
-		<nav class="container-fluid">
+		<nav class="container-fluid divTexto">
 			<ul class="row">
 				<li class="col-12 col-md-4"><div id="missao">
 					<h4>Missão</h4>
@@ -88,7 +91,7 @@
 			</ul>	
 		</nav>	
 
-		<div id="porque">
+		<div id="porque" class="col-md-6 divTexto">
 			<h4>Por Que Investir em Treinamento e Desenvolvimento?</h4>
 			<p>
 				"Nunca vou me esquecer do que um CEO disse sobre o risco de se investir em treinamento. Alguém me perguntou:</br>
@@ -101,12 +104,18 @@
 		</div>
 	</section>
 
-	<section class="container-fluid col-12 col-md-12 col-xl-12" id="treinamentos">
+
+	<div id="img2" class="divTexto parallaxImgs" style="background-image:url('imgs/Parallax/Prlx01.jpg')">
+	</div>
+
+
+
+	<section class="container-fluid col-12 col-md-12 col-xl-12 divTexto" id="treinamentos">
 		<div>
 			<h1>Treinamentos</h1>
 			</br>
 			<h2>Temas Comportamentais:</h2>
-			<ul>	
+			<ul class="textUl">	
 				<li>- Pesquisa de Clima Organizacional</li>
 				<li>- Liderança de Alto Nível</li>
 				<li>- Gestão de Negócios com Foco em Inovação</li>
@@ -132,11 +141,14 @@
 		</div>
 	</section>
 
-	<section class="container-fluid col-12 col-md-12 col-xl-12" id="metodologias">
+	<div id="img3" class="divTexto parallaxImgs" style="background-image:url('imgs/Parallax/Prlx02.jpg')">
+	</div>
+
+	<section class="container-fluid col-12 col-md-12 col-xl-12 divTexto" id="metodologias">
 		<h1>Metodologias</h1>
 		
 		<h3>6 Ds - As seis disciplinas que transformam educação em resultado para o negócio</h3>
-		<ul>
+		<ul class="textUl">
 			<li>D1 - Determinar os resultados para o negócio</li>
 			<li>D2 - Desenhar uma experiência completa.</li>
 			<li>D3 - Direcionar a aplicação.</li>
@@ -150,7 +162,7 @@
 		<hr/>
 		
 		<h3>Taxonomia de Bloom</h3>
-		<ul>
+		<ul class="textUl">
 			<li>Assimilando</li>
 			<li>Compreendendo</li>
 			<li>Aplicando</li>
@@ -162,22 +174,27 @@
 		<hr/>
 		
 		<h3>ACP</h3>
-		<ul>
+		<ul class="textUl">
 			<li>Aprendizagem Centrada no Participante</li>
 		</ul>
 		
 		<hr/>
 		
 		<h3>ABP</h3>
-		<ul>
+		<ul class="textUl">
 			<li>Aprendizagem Baseada em Problemas</li>
 		</ul>
 	</section>
 
-	<section class="container-fluid col-12 col-md-12 col-xl-12" id="modalidades">
+
+	<div id="img4" class="divTexto parallaxImgs" style="background-image:url('imgs/Parallax/Prlx03.jpg')">
+	</div>
+
+
+	<section class="container-fluid col-12 col-md-12 col-xl-12 divTexto" id="modalidades">
 		<h1>Modalidades</h1>
 		</br>
-		<ul>
+		<ul class="textUl">
 			<li>- Treinamentos</li>
 			<li>- Cursos</li>
 			<li>- Workshop</li>
@@ -189,9 +206,9 @@
 		
 		<hr/>
 		
-		<h1>Ferramentas</h1>
+		<h1 class="divTexto">Ferramentas</h1>
 		</br>
-		<ul>
+		<ul class="textUl">
 			<li>- Business Game - Jogos de Empresa</li>
 			<li>- Board Game - Jogos de Tabuleiro customizados</li>
 			<li>- Dinâmica de Grupo</li>
@@ -205,7 +222,11 @@
 		<div class="sectDiv3"></div>
 	</section>
 
-	<section class="container-fluid col-12 col-md-12 col-xl-12" id="diretoria">
+	<div id="img5" class="divTexto parallaxImgs" style="background-image:url('imgs/Parallax/Prlx04.jpg')">
+	</div>
+
+
+	<section class="container-fluid col-12 col-md-12 col-xl-12 divTexto" id="diretoria">
 		<h1>Diretoria</h1>
 		<div>
 			<p>
@@ -224,7 +245,7 @@
 		</div>
 
 		
-		<div class="profile">
+		<div class="profile divTexto">
 			<ul class="row">
 				<li class="col-12 col-md-6"><div id="profile01">
 					<img style="width:100%" class="profImg" src="imgs/profile03.jpg">
@@ -242,7 +263,10 @@
 		<div class="sectDiv4"></div>
 	</section>
 
-	<section class="container-fluid col-12 col-md-6" id="clientes">
+	<div id="img6" class="divTexto parallaxImgs" style="background-image:url('imgs/Parallax/Prlx05.jpg')">
+	</div>
+
+	<section class="container-fluid col-12 col-md-6 divTexto" id="clientes">
 
 		<style>
 		  /* Make the image fully responsive */
@@ -257,8 +281,6 @@
 		</style>
 
 		<h1>Clientes</h1>
-
-<!-- ===================================================================================================================================================================================================== -->
 
 	<div id="demo" class="carousel slide" data-ride="carousel" style="height: ">
 
@@ -326,71 +348,20 @@
 	</div>
 
 
-<!-- ===================================================================================================================================================================================================== -->
-
-
-		<!-- <ul class="row">
-			<li class="col-12 col-md-4"><div id="profile01">
-				<img style="width:100%" class="tbImg" src="imgs/clientes/bradesco.jpg"/>
-			</br>
-			</div></li>
-			
-			<li class="col-12 col-md-4"><div id="profile02">
-				<img style="width:100%" class="tbImg" src="imgs/clientes/ftdEdRs.jpg"/>
-			</br>
-			</div></li>
-
-			<li class="col-12 col-md-4"><div id="profile02">
-				<img style="width:100%" class="tbImg" src="imgs/clientes/getinge.jpg"/>
-			</br>
-			</div></li>
-		</ul>
-
-		<ul class="row">
-			<li class="col-12 col-md-4"><div id="profile01">
-				<img style="width:100%" class="tbImg" src="imgs/clientes/magazine-luiza.jpg"/>
-			</br>
-			</div></li>
-			
-			<li class="col-12 col-md-4"><div id="profile02">
-				<img style="width:100%" class="tbImg" src="imgs/clientes/bradesco-seguro.jpg"/>
-			</br>
-			</div></li>
-
-			<li class="col-12 col-md-4"><div id="profile02">
-				<img style="width:100%" class="tbImg" src="imgs/clientes/honda-financeiro.jpg"/>
-			</br>
-			</div></li>
-		</ul>
-
-		<ul class="row">
-			<li class="col-12 col-md-4"><div id="profile01">
-				<img style="width:100%" class="tbImg" src="imgs/clientes/fenabrave.jpg"/>
-			</br>
-			</div></li>
-			
-			<li class="col-12 col-md-4"><div id="profile02">
-				<img style="width:100%" class="tbImg" src="imgs/clientes/pqcorp.jpg"/>
-			</br>
-			</div></li>
-
-			<li class="col-12 col-md-4"><div id="profile02">
-				<img style="width:100%" class="tbImg" src="imgs/clientes/promex.jpg"/>
-			</br>
-			</div></li>
-		</ul>		 -->
-
 	</br>
 	</br>
 	</br>
-		<div class="sectDiv5"></div>
+
 	</section>
 
-	<div class="container-fluid col-12 col-md-12 col-xl-12" id="creditos">
+	<div id="img7" class="divTexto parallaxImgs" style="background-image: url('imgs/Parallax/Prlx06.jpg'); margin-bottom: 0px">
+	</div>
+
+	<div class="container-fluid col-12 col-md-12 col-xl-12 divTexto rodape" id="rodape">
 
 		<ul class="row">
 
-			<li class="col-12 col-md-6"><div id="left">
+			<li class="col-12 col-md-6"><div id="left" style="padding-left: 2%">
 
 				<ul>
 					<li>
@@ -399,13 +370,13 @@
 
 					<li>
 						<div>
-							<img style="height:20px; width:30px" src="imgs/Icons/Contato.png"/>T&D Solutions
+							<img src="imgs/Icons/Contato.png" class="rodapeImg">T&D Solutions
 							</br>
 						</div>
 					</li>
 					
 					<li>
-						<div>
+						<div style="padding-left: 5%;">
 							Sua aliada na Gestão de Pessoas
 							</br>
 						</div>
@@ -413,7 +384,7 @@
 
 					<li>
 						<div>
-							<img style="height:20px; width:30px" src="imgs/Icons/mail.png"/>
+							<img src="imgs/Icons/mail.png" class="rodapeImg">
 							<a href="javascript:window.open('Contato.html','fale conosco','width=600,height=400')">contato@tedsolutions.com.br</a>
 							</br>
 						</div>
@@ -423,7 +394,7 @@
 			</br>
 			</div></li>
 		
-			<li class="col-12 col-md-6"><div style="text-align: right" id="right">
+			<li class="col-12 col-md-6"><div style="text-align: right; padding-right: 2%" id="right">
 			
 				<h3>Links Rápidos</h3>
 				<ul>
@@ -440,7 +411,7 @@
 		
 	</div>
 	
-	<div class="cred" class="col-12" id="rodape">	
+	<div class="creditos" class="col-12" id="creditos">	
 		<div>
 			</br>
 			<h5>T&D Solutions - 2018 - Todos os Direitos Reservados</h5>
