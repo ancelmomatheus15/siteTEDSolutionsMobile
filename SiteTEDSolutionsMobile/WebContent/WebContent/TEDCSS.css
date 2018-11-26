@@ -22,10 +22,6 @@ body .button2{
     line-height: 26.4px;
 }
 
-body button:hover {
-    background-color: #555;
-}
-
 p{
 	align: center;
 	color: #ffffff;
