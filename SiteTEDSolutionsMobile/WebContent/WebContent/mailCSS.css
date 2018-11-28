@@ -42,7 +42,7 @@ form{
 }
 
 .lbl{
-	text-align: right;
+	text-align: right; 
 	width: 100%;	
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 15px;
@@ -50,6 +50,15 @@ form{
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
+}
+
+.bkgImg{	
+	background-image:url('imgs/Parallax/Prlx06.jpg')
+	filter: grayscale(100%);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
