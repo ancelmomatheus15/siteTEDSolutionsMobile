@@ -1,7 +1,6 @@
 .head1{
 	background-color: #bc0b0b;
     padding: 20px;
-    margin-bottom: 20px;
     width: 100%;
 }
 
@@ -42,7 +41,7 @@ form{
 }
 
 .lbl{
-	text-align: right; 
+	text-align: left; 
 	width: 100%;	
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 15px;
@@ -52,13 +51,5 @@ form{
 	line-height: 26.4px;
 }
 
-.bkgImg{	
-	background-image:url('imgs/Parallax/Prlx06.jpg')
-	filter: grayscale(100%);
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 
