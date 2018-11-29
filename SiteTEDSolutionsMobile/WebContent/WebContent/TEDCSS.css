@@ -199,3 +199,12 @@ a:active {
 	padding-left:28px;
 }
 
+.tableClientes{
+    align-items: center;
+}
+
+.tbImg{
+	width: 330px;
+	height: 150px;
+	padding: 3px;
+}
